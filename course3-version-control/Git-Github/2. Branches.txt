@@ -1,0 +1,17 @@
+// khoi tao nhanh phu dir1/dir2
+- git checkout -B dir1/dir2
+- git branch
+
+// add file vao nhanh phu
+- touch test1.txt
+- git add test1.txt
+- git commit -m "Add test1.txt"
+
+// day file test1.txt vao nhanh phu dir1/dir2
+- git push -u origin dir1/dir2
+
+// ve nhanh chinh
+- git checkout main
+
+// tai file test1.txt ve nhanh chinh
+-git pull

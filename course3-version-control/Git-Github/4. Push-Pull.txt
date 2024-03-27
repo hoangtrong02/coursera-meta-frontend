@@ -1,0 +1,5 @@
+// tai file o may cuc bo len may chu tu xa
+git push origin main
+
+// tai file o may chu ve may cuc bo
+git pull

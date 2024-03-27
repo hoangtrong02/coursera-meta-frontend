@@ -1,0 +1,5 @@
+- gh auth login
+	Github.com
+	HTTPS
+	Yes
+	Paste an authentication token

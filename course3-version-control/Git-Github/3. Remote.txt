@@ -1,0 +1,7 @@
+// dir1
+git remote -v
+
+//dir2
+git remote add origin git@github.com:...
+git pull
+git checkout main
