@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .header h1{
+            text-align: center;
+            margin: 10px;
+        }
+
+        .navbar ul {
+            background-color: rgb(128, 128, 128);
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            overflow: hidden;
+        }
+        .navbar a{
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            display: block;
+        }
+        .navbar li{
+            float: left;
+        }
+        .navbar li:hover{
+            background-color: rgb(0, 0, 0);
+        }
+        .navbar li:focus-within{
+            background-color: rgb(0, 0, 0);
+        }
+        .left{
+            float: left;
+            width: 30%;
+            padding: 10px;
+            text-align: justify;
+        }
+        .middle{
+            float: left;
+            width: 30%;
+            padding: 10px;
+            text-align: justify;
+
+        }
+        .right{
+            float: left;
+            width: 40%;
+            padding: 10px;
+            text-align: justify;
+
+        }
+        .footer{
+            background-color: rgb(128, 128, 128);
+            clear: both;
+        }
+        .footer h1{
+            text-align: center;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        @media screen and (max-width:700px){
+            .left, .middle, .right{
+                width: 100%;
+            }
+        }
+        html{
+            height: 100%;
+        }
+        body{
+            height: 100%;
+            display: grid;
+            grid-template-rows: 1fr auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Header</h1>
+    </div>
+
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <div class="left">
+            <h3>This is Left</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, illo repellendus! Totam reprehenderit assumenda beatae tempore ipsam magnam, rem perspiciatis, perferendis, asperiores nemo ex placeat labore dolore obcaecati ullam hic?</p>
+        </div>
+        <div class="middle">
+            <h3>This is Middle</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, illo repellendus! Totam reprehenderit assumenda beatae tempore ipsam magnam, rem perspiciatis, perferendis, asperiores nemo ex placeat labore dolore obcaecati ullam hic?</p>
+        </div>
+        <div class="right">
+            <h3>This is Right</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, illo repellendus! Totam reprehenderit assumenda beatae tempore ipsam magnam, rem perspiciatis, perferendis, asperiores nemo ex placeat labore dolore obcaecati ullam hic?</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h1>Footer</h1>
+    </div>
+</body>
+</html>
